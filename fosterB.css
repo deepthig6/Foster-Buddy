@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 9, 2016, 8:32:29 PM
+    Author     : dm539j
+*/
+
+[class*="tg-"] {
+    float: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.tg 
+{
+    border-collapse:collapse;border-spacing:0;
+}
+.tg td
+{
+    font-family:Arial, sans-serif;font-size:14px;padding:20px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;
+}
+.tg th
+{
+    font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:20px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;
+}
+.tg .tg-yw4l
+{
+    vertical-align:top;
+}
+.redHeader
+{
+    color: red;
+    font: cursive;
+}
+.paddingAbove
+{
+    padding-top: 1cm;
+}
+.paddingBelow
+{
+     padding-bottom: 2cm;
+}
+.backgroundMain
+{
+  background : url("../images/fostering.jpg") center center;
+  background-repeat: no-repeat;
+       
+}
+* {
+    box-sizing: border-box;
+}
+.fontBold
+{
+font-weight: bold;
+}
+.petName
+{
+ vertical-align: top;
+ font-style: italic;
+ font-weight: bold;
+ padding-left : "0px";
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.brightness:hover {
+   background-color: red;
+   display: block;
+}
+
+.modalDialog {
+/*	height: "50px";
+        width:"50px";*/
+}
+
+
