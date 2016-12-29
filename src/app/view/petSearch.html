@@ -1,0 +1,35 @@
+<div>
+    <div ng-init="init()" class="ng-cloak">
+    <div id="petSearch">
+        <label class="fontBold"> Select a county  </label>
+        <select id="countySelect" ng-init="county = 'All'" ng-options="county for county in counties" ng-change="onCountyChange(county)" ng-model="county">
+
+        </select>
+
+        <div class="paddingAbove">
+
+            <h4 class="horAl"> Find an animal who needs foster care in Georgia -</h4>
+            <h4 class="horAl redHeader"> {{county == 'All'? county+' Counties': county+' County'}}</h4></div>
+
+        <!--  Product Container  -->
+        <h2 ng-show="noResults">No Results found!</h2>
+        <div ng-repeat="pet in pets" class="aImg">
+            <div>
+                <img ng-src="{{pet.imgSrc}}"/>
+                <h3 class="">{{pet.name}} </h3>
+                <button id="viewDet" class="viewDet" ng-click="displayDetails(pet)">View Details</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--  Product Container  -->
+
+
+
+
+</div>
+
+<div  id="detailsPopUp" ui-view></div>
+</div>
+

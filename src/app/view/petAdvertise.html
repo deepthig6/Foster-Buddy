@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Foster Buddy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="paddingBottom aboutUsText">Only rescue organizations and animal shelters can advertise. Please fill the form to advertise an animal on Foster Buddy !!</div>
+        <div>
+            <div>
+                <div class="advForm">
+                    <div class="advFields">
+                        <h3 class="redHeader">Pet information</h3>
+                    </div>
+
+                    <div class="advFields">
+                        <label class="spanLabelsLong">Pet Name:</label>
+                        <input id="petName" type="text" >
+                        <img class="uploadPic" src="app\assets\images\uploadImg1.jpg"/>
+
+                    </div>
+                    <div class="advFields">
+
+                        <label class="spanLabelsLong">Pet Age:</label>
+                        <input id="petAge" type="text" >
+                    </div>
+
+                    <div class="advFields">
+                        <label class="spanLabelsLong">Needs foster for:</label>
+                        <input id="petFosterTime" type="text" >
+                    </div>
+                    <div class="advFields">
+                        <label class="spanLabelsLong">Organization name:</label>
+                        <input id="orgName" type="text" >
+                    </div>
+                    <div class="advFields">
+                        <label class="spanLabelsLong">Org/Shelter EIN:</label>
+                        <input id="orgEin" type="text" >
+                    </div>
+
+                    <div class="advFields">
+                        <label class="spanLabelsLong" id="emailId">Organization Email id:</label>
+                        <input id="ordEmail" type="text">
+                    </div>
+                    <div class="advFields fieldsLast">
+                        <label class="spanLabelsLong">Organization Phone No:</label>
+                        <input id="orgPhn" type="text" >
+                    </div>
+                    <div>
+                        <p>{{sentMessage}}<p>
+                            <button class="spanLabels" ng-disabled="enableSubmitButton()" title="Submit your pet info" ng-click="interested()">Submit</button>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

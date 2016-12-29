@@ -1,0 +1,50 @@
+<div id="myPopup" class="popup" ng-hide="{{showPopUp}}" ng-init="getSessionData()">
+
+    <div class="popup-content">
+        <span class="close">&times;</span>
+
+        <h3 class="fieldLabel">Pet information</h3>
+
+        <div class="fields">
+            <label class="fieldLabel">Name:</label>
+            <label class="fieldLabelData">{{petData.name}}</label>
+            <img class="popUpImg" src="{{petData.imgSrc}}"/>
+        </div>
+        <div class="fields">
+
+            <label class="fieldLabel">Age:</label>
+            <label class="fieldLabelData" >{{petData.age}}</label>
+        </div>
+
+        <div class="fields">
+            <label class="fieldLabel">Needs a foster for at least:</label>
+            <label class="fieldLabelData" >{{petData.fosterTime}}</label>
+        </div>
+        <div class="fields">
+            <label class="fieldLabel">Rescue organization:</label>
+            <label class="fieldLabelData" >{{petData.rescueOrg}}</label>
+        </div>
+        <div class="fields">
+            <label class="fieldLabel">Waiting since:</label>
+            <label class="fieldLabelData" >{{petData.waitingTime}} days</label>
+        </div>
+
+        <div class="fields">
+            <h3 class="fieldLabel">Your contact info</h3>
+            <div class="fields">
+                <label class="spanLabels fieldLabel" id="emailId">Email id:</label>
+                <input id="email" ng-model="email" type="text">
+            </div>
+            <div class="fieldsLast">
+                <label class="spanLabels fieldLabel"> Phone:</label>
+                <input id="phn" ng-model="phn" type="text" >
+            </div>
+            <div>
+                <p class="fieldLabelData sentMessage">{{sentMessage}}<p>
+                    <button id="interested" ng-disabled="enableInterestButton()" title="Send your info" ng-click="interested()">Interested</button>
+
+            </div>
+        </div>
+
+
+    </div>
