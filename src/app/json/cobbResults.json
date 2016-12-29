@@ -1,0 +1,22 @@
+{
+    "results": [
+        {
+            "name": "Bruno",
+            "imgSrc": "app/assets/images/pic2.jpg",
+            "age": "2 yr",
+            "fosterTime": "6 months",
+            "rescueOrg": "Paw Rescue",
+            "waitingTime": "365"
+
+        },
+        {
+            "name": "Butter",
+            "imgSrc": "app/assets/images/pic3.jpg",
+            "age": "6 months",
+            "fosterTime": "1 year",
+            "rescueOrg": "Save Fido",
+            "waitingTime": "45"
+
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "results": [
+        {
+            "name": "Max",
+            "imgSrc": "app/assets/images/pic5.jpg",
+            "age": "1.5 yr",
+            "fosterTime": "5 months",
+            "rescueOrg": "Save Fido",
+            "waitingTime": "20"
+        },
+        {
+            "name": "Brownie",
+            "imgSrc": "app/assets/images/pic6.jpg",
+            "age": "4 yr",
+            "fosterTime": "3 months",
+            "rescueOrg": "Fido-Friend",
+            "waitingTime": "30"
+
+        },
+        {
+            "name": "Cookie",
+            "imgSrc": "app/assets/images/pic7.jpg",
+            "age": "5 yr",
+            "fosterTime": "3 months",
+            "rescueOrg": "Furry Fido",
+            "waitingTime": "210"
+
+        },
+        {
+            "name": "Charlie",
+            "imgSrc": "app/assets/images/pic8.jpg",
+            "age": "2 yr",
+            "fosterTime": "3 months",
+            "rescueOrg": "Save Fido",
+            "waitingTime": "60"
+
+        },
+        {
+            "name": "Mojo",
+            "imgSrc": "app/assets/images/pic9.jpg",
+            "age": "1 yr",
+            "fosterTime": "3 months",
+            "rescueOrg": "Save Fido",
+            "waitingTime": "24"
+
+        },
+        {
+            "name": "Carla",
+            "imgSrc": "app/assets/images/pic10.jpg",
+            "age": "3 yr",
+            "fosterTime": "3 months",
+            "rescueOrg": "Angel Fido",
+            "waitingTime": "75"
+
+        },
+        {
+            "name": "Minty",
+            "imgSrc": "app/assets/images/pic11.jpg",
+            "age": "4 yr",
+            "fosterTime": "3 months",
+            "rescueOrg": "Rescue Fido",
+            "waitingTime": "30"
+
+        },
+        {
+            "name": "Mellow",
+            "imgSrc": "app/assets/images/pic12.jpg",
+            "age": "5 yr",
+            "fosterTime": "3 months",
+            "rescueOrg": "Angel Fido",
+            "waitingTime": "3"
+
+        }
+    ]
+}
